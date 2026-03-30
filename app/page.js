@@ -300,7 +300,7 @@ export default function Home() {
               <div key={g.id} style={{ marginBottom: 12, paddingBottom: 12, borderBottom: "1px solid #eee" }}>
                 <p style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 500, color: "#333" }}>{g.text}</p>
                 {g.freeDetail && <p style={{ margin: 0, fontSize: 13, color: "#666", lineHeight: 1.5 }}>{g.detail}</p>}
-                {!g.freeDetail && <p style={{ margin: 0, fontSize: 12, color: "#999", fontStyle: "italic" }}>\u{1F512} Full analysis available in the complete report</p>}
+                {!g.freeDetail && <p style={{ margin: 0, fontSize: 12, color: "#999", fontStyle: "italic" }}>\🔒 Full analysis available in the complete report</p>}
               </div>
             ))}
             {criticalGaps.length > 3 && (
